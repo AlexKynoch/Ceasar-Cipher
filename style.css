@@ -1,0 +1,60 @@
+.container {
+  font-family: "Montserrat", "sans-serif";
+  width: 350px;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: rgb(196, 195, 195);
+  box-shadow: 1px 8px 15px #888888;
+  display: grid;
+  margin: auto;
+  font-weight: bold;
+}
+
+#message,
+#answer {
+  padding: 20px;
+  box-shadow: 1px 8px 15px #888888;
+}
+
+#shift {
+  width: 40px;
+  box-shadow: 1px 8px 15px #888888;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+button {
+  background-color: rgb(7, 99, 144);
+  color: white;
+  border: 1px solid rgb(96, 62, 219);
+  border-radius: 5px;
+  box-shadow: 1px 8px 15px #888888;
+  font-size: 14px;
+  box-shadow: 1px 8px 15px #888888;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: rgb(23, 179, 23);
+  color: black;
+}
+
+#shift,
+#message,
+#answer {
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  border-color: rgb(7, 99, 144);
+}
+
+#shiftLabel {
+  margin: auto;
+}
